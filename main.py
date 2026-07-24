@@ -9,11 +9,11 @@ import uuid
 from playwright.async_api import async_playwright
 
 START_TIME = time.time()
-SIGNATURE = "༺ρ 𝕣 ꪜ 𝕣 अब्बू ☽༻"
+SIGNATURE = "༺AADIL अब्बू ☽༻"
 SIGNATURE_CHANCE = 0.15 
 
 def get_payload():
-    base_text = "ᴘʀᴀᴛɪᴋ-ᴠᴇᴇʀ-ꜱᴜʀᴀᴊ-ɴᴇᴍᴇꜱɪꜱ ᴛʀʏ. ᴍᴀ ғʟᴏᴡᴇʀ."
+    base_text = "SURIYA OR US K TATTE ᴛʀʏ. ᴍᴀ ғʟᴏᴡᴇʀ."
     fire_part = "ʏᴀ ғɪʀᴇ 🔥??"
     flowers = ["🌸", "🌹", "🌺", "🌻", "🌼", "🌷"]
     line = f"{base_text} {random.choice(flowers)} {fire_part}"
